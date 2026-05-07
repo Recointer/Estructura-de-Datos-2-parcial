@@ -14,7 +14,6 @@ struct Nodo {
 
 /**
  * Función para imprimir el árbol usando ASCII estándar
- * Compatible con cualquier IDE o consola
  */
 void imprimirGraficoASCII(Nodo* nodo, string prefijo = "", bool esUltimo = true) {
     if (nodo == nullptr) return;
